@@ -1,2 +1,2 @@
 # copy2clipboard
-一个油猴脚本，给Stack Overflow、Github、知乎等网站加上一键复制代码的功能。
+An greasemonkey script, to add code copy function Stack Overflow, Github, zhihu and other web sites.
