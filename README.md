@@ -1,5 +1,7 @@
 # copy2clipboard
-A tampermonkey script, to add code copy function Stack Overflow, Github, zhihu and other web sites, **as long as the code is wrapped in the \<pre\> html tag**.
+A tampermonkey script, to add a code copy button to Stack Overflow, Github, Zhihu and other web sites, **as long as the source code is wrapped in the \<pre\> html tag**.
+
+![demo](./imgs/2018-12-07 13.01.14.gif)
 
 ## Supported websites
 
@@ -8,6 +10,7 @@ https://github.com/*
 https://stackoverflow.com/*
 https://*.zhihu.com/*
 https://www.jianshu.com/*
+https://dev.to/*
 ```
 
 ## How to custom
@@ -30,4 +33,4 @@ If you find any website that not in the above list, you can add your websites at
 
 ## Thanks
 
-If you feel good about it, please give me a star.
+If you feel good about it, please give me a star⭐.
