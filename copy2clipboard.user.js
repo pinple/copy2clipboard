@@ -11,7 +11,7 @@
 // @include      https://dev.to/*
 // @require      https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js
 // @grant        none
-// @license      Apache License 2.0
+// @license      Apache-2.0
 // ==/UserScript==
 (() => {
     "use strict";
