@@ -3,12 +3,12 @@ An Tampermonkey script, to add code copy function Stack Overflow, Github, zhihu 
 
 ## Supported websites
 
-- ```bash
-  - https://github.com/*
-  - https://stackoverflow.com/*
-  - https://*.zhihu.com/*
-  - https://www.jianshu.com/*
-  ```
+```bash
+https://github.com/*
+https://stackoverflow.com/*
+https://*.zhihu.com/*
+https://www.jianshu.com/*
+```
 
 ## The custom
 
