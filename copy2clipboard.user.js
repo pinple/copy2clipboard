@@ -58,7 +58,8 @@
         }
     }
     $("pre").each(function () {
-        $(this).css("position", "relative");
+        var pre = this;
+        $(pre).css("position", "relative");
 
         var $copyCodeButton = $("<button class='copy-code-button'>Copy</button>");
         $copyCodeButton.css({
@@ -77,7 +78,9 @@
         var $codeContainer = $copyCodeButton.siblings("code");
         setTimeout(function () {
             if ($codeContainer.length == 0) {
-                $copyCodeButton.siblings().wrapAll('<code style= "overflow-x: auto; padding: 0px;"></code>');
+                $(pre).contents().filter(function () {
+                    return this.className !== "copy-code-button";
+                }).wrapAll('<code style= "overflow-x: auto; padding: 0px;"></code>');
                 $codeContainer = $copyCodeButton.siblings("code").get(0);
             } else {
                 $codeContainer = $codeContainer.get(0);
