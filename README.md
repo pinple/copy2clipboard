@@ -1,7 +1,11 @@
 # copy2clipboard
 A tampermonkey script, to add a code copy button to Stack Overflow, Github, Zhihu and other web sites, **as long as the source code is wrapped in the \<pre\> html tag**.
 
-![demo](./imgs/2018-12-07 13.01.14.gif)
+![demo](./imgs/stackoverflow.gif)
+
+## Install
+
+Please go to https://openuserjs.org/scripts/neulana/copy2clipboard
 
 ## Supported websites
 
