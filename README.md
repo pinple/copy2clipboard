@@ -10,7 +10,7 @@ https://*.zhihu.com/*
 https://www.jianshu.com/*
 ```
 
-## The custom
+## How to custom
 
 If you find any website that not in the above list, you can add your websites at the top of the script.there is some steps:
 
