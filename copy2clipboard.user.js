@@ -8,9 +8,9 @@
 // @include      https://stackoverflow.com/*
 // @include      https://*.zhihu.com/*
 // @include      https://www.jianshu.com/*
-// @include      https://*.github.io/*
+// @include      https://dev.to/*
 // @require      https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js
-// @grant        GM_log
+// @grant        none
 // @license      Apache License 2.0
 // ==/UserScript==
 (() => {
