@@ -5,7 +5,7 @@ A tampermonkey script, to add a code copy button to Stack Overflow, Github, Zhih
 
 ## Install
 
-Please go to https://openuserjs.org/scripts/neulana/copy2clipboard
+Please go to https://openuserjs.org/scripts/neulana/copy2clipboard or https://greasyfork.org/zh-CN/scripts/375274-copy2clipboard
 
 ## Supported websites
 
