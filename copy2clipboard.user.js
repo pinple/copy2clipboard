@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         copy2clipboard
 // @namespace    https://github.com/Neulana/copy2clipboard
-// @version      0.2
+// @version      0.1
 // @description  a tampermonkey to copy code from stackoverflow.com etc.
 // @author       Neulana; https://github.com/Neulana
 // @include      https://github.com/*
@@ -9,7 +9,6 @@
 // @include      https://*.zhihu.com/*
 // @include      https://www.jianshu.com/*
 // @include      https://dev.to/*
-// @include      *.github.to/*
 // @require      https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js
 // @grant        none
 // @license      Apache-2.0
@@ -76,8 +75,8 @@
             "-webkit-border-radius": "5px",
             "border": "2px solid #CCCCCC"
         });
+        var $codeContainer = $copyCodeButton.siblings("code");
         setTimeout(function () {
-            var $codeContainer = $copyCodeButton.siblings("code");
             if ($codeContainer.length == 0) {
                 $(pre).contents().filter(function () {
                     return this.className !== "copy-code-button";
