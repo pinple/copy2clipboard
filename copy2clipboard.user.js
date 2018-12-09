@@ -6,6 +6,7 @@
 // @author       Neulana; https://github.com/Neulana
 // @include      https://github.com/*
 // @include      https://stackoverflow.com/*
+// @include      https://*.stackexchange.com/*
 // @include      https://*.zhihu.com/*
 // @include      https://www.jianshu.com/*
 // @include      https://dev.to/*
