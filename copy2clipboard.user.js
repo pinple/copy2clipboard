@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         copy2clipboard
 // @namespace    https://github.com/Neulana/copy2clipboard
-// @version      0.3
+// @version      1.0
 // @description  a tampermonkey to copy code from stackoverflow.com etc.
 // @author       pinple; https://github.com/pinple
 // @include      https://stackoverflow.com/*
