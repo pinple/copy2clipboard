@@ -3,8 +3,7 @@
 // @namespace    https://github.com/Neulana/copy2clipboard
 // @version      0.3
 // @description  a tampermonkey to copy code from stackoverflow.com etc.
-// @author       Neulana; https://github.com/Neulana
-// @include      https://github.com/*
+// @author       pinple; https://github.com/pinple
 // @include      https://stackoverflow.com/*
 // @include      https://*.zhihu.com/*
 // @include      https://www.jianshu.com/*
